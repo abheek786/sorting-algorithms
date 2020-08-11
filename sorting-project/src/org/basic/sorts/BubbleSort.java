@@ -28,9 +28,9 @@ public class BubbleSort {
 					int temp;
 					
 					// swapping elements
-					temp = array[i];
-					array[i] = array[j];
-					array[j] = temp;
+					temp = array[j];
+					array[j] = array[j+1];
+					array[j+1] = temp;
 				}
 			}
 		}

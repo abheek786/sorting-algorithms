@@ -18,10 +18,9 @@ public class BubbleSort {
 		
 		// unsorted array
 		int array[] = {20, 35, -15, 7, 55, 1, -22};
+
 		
-		int unsortedPartitionIndex = array.length-1;
-		
-		for(int i = unsortedPartitionIndex; i > 0; i--) {
+		for(int unsortedPartitionIndex = array.length-1; unsortedPartitionIndex > 0; unsortedPartitionIndex--) {
 			
 			for(int j = 0; j < unsortedPartitionIndex; j++) {
 				

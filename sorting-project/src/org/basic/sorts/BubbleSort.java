@@ -4,7 +4,8 @@ package org.basic.sorts;
  * Bubble Sort is a very basic sorting algorithm. The performance degrade quickly as number of element grows.
  * The sorting happens from left to right. The larger elements are pushed at the end of array during every iteration. 
  * At the final iteration, the array has sorted elements. It is in-place algorithm because the swapping of element happens in the same array. 
- * The array is partitioned logically. It is unstable algorithm because the position of same element may get changed during iteration.
+ * The array is partitioned logically. It is a stable algorithm because the relative position of same element will not get changed during iteration because we are swapping only when the 
+ * adjacent element is greater.
  *  
  * Time Complexity - O(n^2) 
  * 
